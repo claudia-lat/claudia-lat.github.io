@@ -1,6 +1,6 @@
 * {
-    margin: 0;
-    padding: 0;
+margin: 0;
+padding: 0;
 }
 
 body {
@@ -25,7 +25,7 @@ line-height: 100px;
 }
 
 ul li a {
-    display: block;
+display: block;
 text-decoration: none;
 font-size: 16px;
 font-family: arial;
@@ -37,40 +37,40 @@ ul li a:hover{
 color: #81A5E9;
 }
 
-a{
-    color: #81A5E9;
-    text-decoration: none;
-  }
+a {
+color: #81A5E9;
+text-decoration: none;
+}
 
 a[href^="mailto"]::before {
     content: "";
 }
 
 .inline-div {
-    display: table;
-    text-align:center;
-    width:100%;
-  }
-
-  .embed-responsive {
-    position: relative;
-    display: block;
-    height: 0;
-    padding: 0;
-    overflow: hidden;
+display: table;
+text-align: center;
+width: 100%;
 }
 
-  .label {
-    color: white;
-    padding: 8px;
-  }
+.embed-responsive {
+position: relative;
+display: block;
+height: 0;
+padding: 0;
+overflow: hidden;
+}
 
-  a.button {
-    color: red;
-    text-decoration: none;
-  }
+.label {
+color: white;
+padding: 8px;
+}
+
+a.button {
+color: red;
+text-decoration: none;
+}
 
 .URL {
-  border-radius: 30%;
-  background-color: white;
+border-radius: 30%;
+background-color: white;
 }
